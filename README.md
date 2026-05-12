@@ -4,7 +4,7 @@
 > Curso: Ciencia de Datos e Inteligencia Artificial
 > Profesor: David Palacio Jimenez
 
-[![Tests](https://github.com/<tu-usuario>/fraud-detection/actions/workflows/tests.yml/badge.svg)](https://github.com/<tu-usuario>/fraud-detection/actions)
+[![Tests](https://github.com/Jhonatan0828/AL_JC_PP_VG_fraudes_en_seguros_veh-culares/actions/workflows/tests.yml/badge.svg)](https://github.com/Jhonatan0828/AL_JC_PP_VG_fraudes_en_seguros_veh-culares/actions)
 
 ## 📌 Descripción
 
@@ -34,7 +34,7 @@ Pipeline completo de Ciencia de Datos para identificar reclamaciones fraudulenta
 ## 📁 Estructura del proyecto
 
 ```
-fraud-detection/
+fraud_detection/
 ├── app.py                              # Punto de entrada de Streamlit
 ├── pyproject.toml                      # Configuración del paquete
 ├── requirements.txt                    # Dependencias de Python
@@ -48,19 +48,18 @@ fraud-detection/
 ├── README.md
 │
 ├── src/
-│   └── fraud_detection/                # Paquete principal
-│       ├── __init__.py
-│       ├── config.py                   # Constantes y rutas
-│       ├── mappings.py                 # Mapeos ordinales y filtros
-│       ├── data_loader.py              # Carga de datos y modelos
-│       ├── metrics.py                  # Cálculo de métricas
-│       ├── plotting.py                 # Funciones de gráficos
-│       ├── prediction.py               # Lógica de predicción
-│       └── pages/                      # Páginas de la app
-│           ├── home.py                 # Resumen ejecutivo
-│           ├── eda.py                  # EDA interactivo
-│           ├── prediction.py           # Predicción individual
-│           └── performance.py          # Comparación de modelos
+│   └── __init__.py
+│   ├── config.py                   # Constantes y rutas
+│   ├── mappings.py                 # Mapeos ordinales y filtros
+│   ├── data_loader.py              # Carga de datos y modelos
+│   ├── metrics.py                  # Cálculo de métricas
+│   ├── plotting.py                 # Funciones de gráficos
+│   ├── prediction.py               # Lógica de predicción
+│   └── pages/                      # Páginas de la app
+│       ├── home.py                 # Resumen ejecutivo
+│       ├── eda.py                  # EDA interactivo
+│       ├── prediction.py           # Predicción individual
+│       └── performance.py          # Comparación de modelos
 │
 ├── notebooks/
 │   └── fraud_detection_analysis.ipynb  # Notebook completo de análisis
@@ -90,8 +89,8 @@ fraud-detection/
 ### Opción A — Con `uv` (recomendado, más rápido)
 
 ```bash
-git clone https://github.com/<tu-usuario>/fraud-detection.git
-cd fraud-detection
+git clone https://github.com/Jhonatan0828/AL_JC_PP_VG_fraudes_en_seguros_veh-culares.git
+cd AL_JC_PP_VG_fraudes_en_seguros_veh-culares
 uv venv
 .venv\Scripts\activate              # Windows
 # source .venv/bin/activate         # Linux/macOS
@@ -101,8 +100,8 @@ uv pip install -e .
 ### Opción B — Con `pip` tradicional
 
 ```bash
-git clone https://github.com/<tu-usuario>/fraud-detection.git
-cd fraud-detection
+git clone https://github.com/Jhonatan0828/AL_JC_PP_VG_fraudes_en_seguros_veh-culares.git
+cd AL_JC_PP_VG_fraudes_en_seguros_veh-culares
 python -m venv .venv
 .venv\Scripts\activate              # Windows
 # source .venv/bin/activate         # Linux/macOS
